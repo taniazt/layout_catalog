@@ -1,12 +1,14 @@
 .rating {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding-top: 15px;
 
   &__stars {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
   }
 
   &__star {

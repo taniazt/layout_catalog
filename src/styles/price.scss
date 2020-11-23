@@ -1,8 +1,9 @@
 .price {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   width: 100%;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: end;
   padding: 20px 0;
 
   &__quantity {
